@@ -1,11 +1,11 @@
-# MexEasy
+# MexEasy / DirectMessage
 
 This package simplifies communications between microservices,
 applications or servers, based on MQTT protocol.
 
 Usage examples are under the *test* folder.
 
-## Examplanation
+## Explanation
 
 The basic unit is a MNode.
 Every unit has a *realm* and an *id*.
@@ -14,9 +14,14 @@ The combination of realm and id form the main MQTT topic.
 Each unit has also a string identifier, random generated if not specified.
 
 In the following examples, the resulting MQTT topic will be:
-* yourAppDomain/yourAppSubdomain/toall *
+*yourAppDomain/yourAppSubdomain/toall*
 
+## Install
 
+```sh
+npm install --save mexeasy
+
+```
 
 ## Usage example
  
